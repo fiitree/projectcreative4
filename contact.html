@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POPPI — Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="nav">
+  <a href="index.html" class="logo">POPPI<span>✦</span></a>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Work</a>
+    <a href="process.html">Process</a>
+    <a class="active" href="contact.html">Contact</a>
+  </nav>
+
+  <a href="contact.html" class="nav-btn">Let's talk ↗</a>
+</header>
+
+<main>
+
+<section class="contact">
+
+  <div class="contact-copy reveal">
+
+    <p class="eyebrow">HELLO, HUMAN.</p>
+
+    <h1>
+      LET'S MAKE<br>
+      <span>SOMETHING.</span>
+    </h1>
+
+    <p>
+      Got a launch, rebrand, weird idea
+      or big question? Tell us what's on your mind.
+    </p>
+
+    <div class="contact-links">
+      <a href="mailto:hello@poppi.studio">
+        hello@poppi.studio ↗
+      </a>
+
+      <span>Bangkok / Thailand</span>
+      <span>Mon—Fri / 10:00—18:00</span>
+    </div>
+
+  </div>
+
+  <form class="contact-form reveal"
+        onsubmit="event.preventDefault(); alert('Thanks! Your message has been received.');">
+
+    <label>
+      Name
+      <input type="text" placeholder="Your name" required>
+    </label>
+
+    <label>
+      Email
+      <input type="email" placeholder="you@email.com" required>
+    </label>
+
+    <label>
+      Project type
+
+      <select>
+        <option>Brand identity</option>
+        <option>Website</option>
+        <option>Campaign</option>
+        <option>Not sure yet</option>
+      </select>
+    </label>
+
+    <label>
+      Tell us everything
+
+      <textarea
+        rows="5"
+        placeholder="A little about your project…">
+      </textarea>
+    </label>
+
+    <button class="btn dark" type="submit">
+      Send it ↗
+    </button>
+
+  </form>
+
+</section>
+
+</main>
+
+<footer>
+  <strong>POPPI✦</strong>
+  <span>Can't wait to hear your idea.</span>
+  <span>© 2026 POPPI</span>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
