@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POPPI — Creative Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="nav">
+  <a href="index.html" class="logo">POPPI<span>✦</span></a>
+
+  <nav>
+    <a class="active" href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Work</a>
+    <a href="process.html">Process</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <a href="contact.html" class="nav-btn">Let's talk ↗</a>
+</header>
+
+<main>
+
+<section class="hero">
+
+  <div class="hero-text reveal">
+    <p class="eyebrow">CREATIVE BRAND STUDIO / BANGKOK</p>
+
+    <h1>
+      MAKE IT<br>
+      <span>POP.</span>
+    </h1>
+
+    <p class="lead">
+      We turn good ideas into bold brands, joyful digital experiences
+      and visuals people remember.
+    </p>
+
+    <a href="work.html" class="btn dark">
+      See our work ↗
+    </a>
+  </div>
+
+  <div class="hero-art reveal">
+
+    <div class="circle"></div>
+
+    <div class="poster">
+      <small>CREATIVE<br>ENERGY</small>
+      <strong>MAKE<br>NOISE.</strong>
+    </div>
+
+    <div class="sticker">
+      GOOD<br>
+      IDEAS<br>
+      ONLY
+    </div>
+
+    <div class="star">✳</div>
+
+  </div>
+
+</section>
+
+<div class="marquee">
+  BRANDING ✦ DIGITAL ✦ CAMPAIGNS ✦ CONTENT ✦
+  BRANDING ✦ DIGITAL ✦ CAMPAIGNS ✦ CONTENT ✦
+</div>
+
+<section class="intro reveal">
+
+  <div>
+    <p class="eyebrow">WHY POPPI?</p>
+
+    <h2>
+      Serious craft.<br>
+      <span>Zero boring.</span>
+    </h2>
+  </div>
+
+  <div>
+    <p>
+      Strategy, design and a little mischief.
+      We build identities that feel human,
+      distinctive and ready to grow.
+    </p>
+
+    <a href="process.html" class="under">
+      How we work →
+    </a>
+  </div>
+
+</section>
+
+<section class="feature reveal">
+
+  <div class="feature-art">
+    <span>01 / VISUAL IDENTITY</span>
+
+    <strong>
+      LOUD<br>
+      ENOUGH<br>
+      TO STICK.
+    </strong>
+  </div>
+
+  <div class="feature-copy">
+    <p class="eyebrow">FEATURED</p>
+
+    <h2>Brands with a point of view.</h2>
+
+    <p>
+      From naming and identity to launch assets,
+      we create a complete visual world —
+      not just a pretty logo.
+    </p>
+
+    <a href="services.html" class="btn">
+      Explore services
+    </a>
+  </div>
+
+</section>
+
+</main>
+
+<footer>
+  <strong>POPPI✦</strong>
+  <span>Small studio. Big personality.</span>
+  <span>© 2026 POPPI</span>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
